@@ -1,0 +1,88 @@
+plugins {
+    id 'java'
+    id 'application'
+    id 'com.bmuschko.docker-java-application' version '9.4.0'
+}
+
+import com.bmuschko.gradle.docker.tasks.image.*
+import com.bmuschko.gradle.docker.tasks.container.*
+
+archivesBaseName = 'Lab9'
+
+def ourContainerName = "java-lab9-container"
+
+repositories {
+    mavenCentral()
+}
+
+jar {
+    manifest {
+        attributes(
+                'Main-Class': 'Main'
+        )
+    }
+}
+
+task createDockerFile(type: Dockerfile) {
+    from 'openjdk:11'
+    copyFile jar.archiveFileName.get() as String, '/app/test.jar'
+    entryPoint 'java'
+    defaultCommand '-jar', '/app/test.jar'
+}
+
+task syncJar(type: Copy) {
+    dependsOn assemble
+    from jar.destinationDirectory
+    into "$buildDir/docker"
+}
+
+compileJava {
+    sourceCompatibility = JavaVersion.VERSION_1_8
+    targetCompatibility = JavaVersion.VERSION_1_8
+}
+
+task buildImage(type: DockerBuildImage) {
+    dependsOn createDockerFile, syncJar
+    inputDir = createDockerFile.getDestDir()
+    images = ["java-lab9:1.0"]
+}
+
+task stopContainer(type: DockerStopContainer) {
+    targetContainerId("$ourContainerName")
+    onError { exception -> handleError(exception) }
+}
+
+task removeContainer(type: DockerRemoveContainer) {
+    dependsOn stopContainer
+    targetContainerId("$ourContainerName")
+    onError { exception -> handleError(exception) }
+}
+
+task createContainer(type: DockerCreateContainer) {
+    dependsOn buildImage, removeContainer
+    targetImageId buildImage.getImageId()
+    containerName = "$ourContainerName"
+}
+
+task startContainer(type: DockerStartContainer) {
+    dependsOn createContainer
+    targetContainerId("$ourContainerName")
+}
+
+private void handleError(Throwable exc) {
+    if (exc.message != null &&
+            !exc.message.contains('NotModifiedException') &&
+            !exc.message.contains('No such container')) {
+        throw new RuntimeException(exc)
+    }
+}
+
+task logContainer(type: DockerLogsContainer) {
+    dependsOn startContainer
+    targetContainerId startContainer.getContainerId()
+    follow = true
+    tailAll = true
+    onNext {
+        message -> logger.quiet message.toString()
+    }
+}
