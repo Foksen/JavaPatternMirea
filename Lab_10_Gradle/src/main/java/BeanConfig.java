@@ -4,17 +4,17 @@ import org.springframework.context.annotation.Configuration;
 
 @Configuration
 public class BeanConfig {
-    @Bean
+    @Bean("trump")
     public Politician trump() {
         return new Trump();
     }
 
-    @Bean
+    @Bean("biden")
     public Politician biden() {
         return new Biden();
     }
 
-    @Bean
+    @Bean("merkel")
     public Politician merkel() {
         return new Merkel();
     }
