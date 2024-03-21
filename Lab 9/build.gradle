@@ -85,4 +85,5 @@ task logContainer(type: DockerLogsContainer) {
     onNext {
         message -> logger.quiet message.toString()
     }
+    outputs.upToDateWhen { false }
 }
