@@ -11,6 +11,9 @@
       <module fileurl="file://$PROJECT_DIR$/Lab 6/Lab 6.iml" filepath="$PROJECT_DIR$/Lab 6/Lab 6.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab 7/Lab 7.iml" filepath="$PROJECT_DIR$/Lab 7/Lab 7.iml" />
       <module fileurl="file://$PROJECT_DIR$/Lab 8/Lab 8.iml" filepath="$PROJECT_DIR$/Lab 8/Lab 8.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/site.iml" filepath="$PROJECT_DIR$/.idea/modules/site.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/site.main.iml" filepath="$PROJECT_DIR$/.idea/modules/site.main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/site.test.iml" filepath="$PROJECT_DIR$/.idea/modules/site.test.iml" />
     </modules>
   </component>
 </project>
