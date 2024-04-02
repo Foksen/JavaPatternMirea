@@ -5,28 +5,23 @@
     <option name="linkedExternalProjectsSettings">
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Lab_11_Gradle" />
-        <option name="gradleJvm" value="openjdk-21" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Lab_11_Gradle" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab_12_Gradle" />
-        <option name="gradleJvm" value="openjdk-21" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Lab_12_Gradle" />
-          </set>
-        </option>
+        <option name="gradleJvm" value="corretto-21" />
       </GradleProjectSettings>
       <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/Lab_13" />
-        <option name="gradleJvm" value="19" />
+        <option name="gradleJvm" value="corretto-21" />
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/Lab_13" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab_14" />
+        <option name="gradleJvm" value="corretto-21" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/Lab_14" />
           </set>
         </option>
       </GradleProjectSettings>
