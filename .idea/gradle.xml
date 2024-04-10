@@ -8,20 +8,11 @@
         <option name="gradleJvm" value="corretto-21" />
       </GradleProjectSettings>
       <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab_13" />
+        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab_15" />
         <option name="gradleJvm" value="corretto-21" />
         <option name="modules">
           <set>
-            <option value="$PROJECT_DIR$/Lab_13" />
-          </set>
-        </option>
-      </GradleProjectSettings>
-      <GradleProjectSettings>
-        <option name="externalProjectPath" value="$PROJECT_DIR$/Lab_14" />
-        <option name="gradleJvm" value="corretto-21" />
-        <option name="modules">
-          <set>
-            <option value="$PROJECT_DIR$/Lab_14" />
+            <option value="$PROJECT_DIR$/Lab_15" />
           </set>
         </option>
       </GradleProjectSettings>
