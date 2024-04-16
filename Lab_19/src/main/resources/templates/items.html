@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Items</title>
+</head>
+<body>
+    <header>
+        <h1>Shop admin panel (items)</h1>
+        <nav>
+            <a th:href="@{/}">Main</a>
+            <a th:href="@{/orders}">Orders</a>
+        </nav>
+    </header>
+    <section>
+        <form th:method="get" th:action="@{/items/add_item}">
+            <h1>Добавить товар</h1>
+            <input type="text" name="title" placeholder="Название" required>
+            <input type="number" name="price" placeholder="Стоимость" min="0" required>
+            <input type="hidden" name="creationDate" value="01/01/1970 00:00:00">
+            <input type="submit" value="Добавить">
+        </form>
+    </section>
+    <section>
+        <form th:method="get" th:action="@{/items/delete_item}">
+            <h1>Удалить товар</h1>
+            <input type="number" name="id" placeholder="ИД товара" required>
+            <input type="submit" value="Удалить">
+        </form>
+    </section>
+    <section>
+        <h1>Список товаров</h1>
+        <table>
+            <tr>
+                <th>ИД товара</th>
+                <th>Название товара</th>
+                <th>Дата создания</th>
+                <th>Стоимость</th>
+            </tr>
+            <tr th:each="item:${items}">
+                <td th:text="${item.id}"></td>
+                <td th:text="${item.title}"></td>
+                <td th:text="${#dates.format(item.creationDate, 'dd.MM.yyyy HH:mm:ss')}"></td>
+                <td th:text="${item.price}"></td>
+            </tr>
+        </table>
+    </section>
+</body>
+</html>
