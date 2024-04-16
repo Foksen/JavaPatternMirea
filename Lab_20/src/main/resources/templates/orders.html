@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Items</title>
+</head>
+<body>
+    <header>
+        <h1>Shop admin panel (orders)</h1>
+        <nav>
+            <a th:href="@{/}">Main</a>
+            <a th:href="@{/items}">Items</a>
+        </nav>
+    </header>
+    <main>
+        <section>
+            <form th:method="get" th:action="@{/orders/add_order}">
+                <h1>Добавить заказ</h1>
+                <input type="number" name="item" placeholder="ИД товара" required>
+                <input type="hidden" name="orderDate" value="01/01/1970 00:00:00">
+                <input type="submit" value="Добавить">
+            </form>
+        </section>
+        <section>
+            <form th:method="get" th:action="@{/orders/delete_order}">
+                <h1>Удалить заказ</h1>
+                <input type="number" name="id" placeholder="ИД заказа" required>
+                <input type="submit" value="Удалить">
+            </form>
+        </section>
+        <section>
+            <h1>Список заказов</h1>
+            <table>
+                <tr>
+                    <th>ИД заказа</th>
+                    <th>Дата заказа</th>
+                    <th>ИД товара</th>
+                    <th>Название товара</th>
+                    <th>Дата создания</th>
+                    <th>Стоимость</th>
+                </tr>
+                <tr th:each="order:${orders}">
+                    <td th:text="${order.id}"></td>
+                    <td th:text="${#dates.format(order.orderDate, 'dd.MM.yyyy HH:mm:ss')}"></td>
+                    <td th:text="${order.item.id}"></td>
+                    <td th:text="${order.item.title}"></td>
+                    <td th:text="${#dates.format(order.item.creationDate, 'dd.MM.yyyy HH:mm:ss')}"></td>
+                    <td th:text="${order.item.price}"></td>
+                </tr>
+            </table>
+        </section>
+    </main>
+</body>
+</html>
