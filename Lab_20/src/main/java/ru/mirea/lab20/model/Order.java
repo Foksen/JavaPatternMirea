@@ -1,4 +1,4 @@
-package ru.mirea.lab20.model;
+package ru.mirea.lab21.model;
 
 import jakarta.persistence.*;
 import lombok.Getter;

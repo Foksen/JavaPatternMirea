@@ -1,4 +1,4 @@
-package ru.mirea.lab20;
+package ru.mirea.lab21;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

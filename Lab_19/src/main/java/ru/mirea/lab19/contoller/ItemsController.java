@@ -1,4 +1,4 @@
-package ru.mirea.lab20.contoller;
+package ru.mirea.lab21.contoller;
 
 import jakarta.persistence.EntityManager;
 import jakarta.persistence.PersistenceContext;
@@ -12,8 +12,8 @@ import org.springframework.http.ResponseEntity;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.*;
-import ru.mirea.lab20.model.Item;
-import ru.mirea.lab20.service.ItemServiceImpl;
+import ru.mirea.lab21.model.Item;
+import ru.mirea.lab21.service.ItemServiceImpl;
 
 import java.util.Date;
 

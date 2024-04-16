@@ -1,0 +1,22 @@
+824  [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils – Could not detect default configuration classes for test class [ru.mirea.lab21.lab21ApplicationTests]: lab21ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+1156 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper – Found @SpringBootConfiguration ru.mirea.lab21.Application for test class ru.mirea.lab21.lab21ApplicationTests
+2141 [Test worker] INFO  r.mirea.lab21.lab21ApplicationTests – Starting lab21ApplicationTests using Java 17.0.10 with PID 55330 (started by igor in /home/igor/IdeaProjects/JavaPatternMirea/Lab_21)
+2144 [Test worker] INFO  r.mirea.lab21.lab21ApplicationTests – No active profile set, falling back to 1 default profile: "default"
+3858 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4214 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 339 ms. Found 2 JPA repository interfaces.
+5591 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+6640 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@b94703b
+6644 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+6734 [Test worker] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+6850 [Test worker] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+6934 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+7495 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+7620 [Test worker] WARN  org.hibernate.orm.deprecation – HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+9561 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+9571 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+11008 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+11085 [Test worker] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+12106 [Test worker] INFO  r.mirea.lab21.lab21ApplicationTests – Started lab21ApplicationTests in 10.57 seconds (process running for 14.102)
+13267 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+13273 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+13312 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.

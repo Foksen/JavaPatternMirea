@@ -1,9 +1,9 @@
-package ru.mirea.lab20.service;
+package ru.mirea.lab21.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
-import ru.mirea.lab20.model.Order;
-import ru.mirea.lab20.repository.OrderRepository;
+import ru.mirea.lab21.model.Order;
+import ru.mirea.lab21.repository.OrderRepository;
 
 import java.util.List;
 
