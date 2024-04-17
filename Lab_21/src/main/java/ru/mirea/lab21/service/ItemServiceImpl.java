@@ -2,6 +2,7 @@ package ru.mirea.lab21.service;
 
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
+import org.springframework.transaction.annotation.Transactional;
 import ru.mirea.lab21.model.Item;
 import ru.mirea.lab21.repository.ItemRepository;
 
@@ -18,24 +19,28 @@ public class ItemServiceImpl implements ItemService {
 
 
     @Override
+    @Transactional
     public void create(Item item) {
         log.info("Create item");
         itemRepository.save(item);
     }
 
     @Override
+    @Transactional(readOnly = true)
     public List<Item> readAll() {
         log.info("Read all items");
         return itemRepository.findAll();
     }
 
     @Override
+    @Transactional(readOnly = true)
     public Item read(int id) {
         log.info("Read item " + id);
         return itemRepository.getReferenceById(id);
     }
 
     @Override
+    @Transactional
     public boolean update(Item item, int id) {
         log.info("Update item " + id);
         if (itemRepository.existsById(id)) {
@@ -47,6 +52,7 @@ public class ItemServiceImpl implements ItemService {
     }
 
     @Override
+    @Transactional
     public boolean delete(int id) {
         log.info("Delete item " + id);
         if (itemRepository.existsById(id)) {
