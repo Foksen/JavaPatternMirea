@@ -1,4 +1,4 @@
-package ru.mirea.lab21.contoller;
+package ru.mirea.lab20.contoller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.HttpStatus;
@@ -7,8 +7,8 @@ import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.ResponseBody;
-import ru.mirea.lab21.service.OrderServiceImpl;
-import ru.mirea.lab21.model.Order;
+import ru.mirea.lab20.service.OrderServiceImpl;
+import ru.mirea.lab20.model.Order;
 
 import java.util.Date;
 

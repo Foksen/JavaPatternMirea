@@ -1,5 +1,5 @@
-755  [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils – Could not detect default configuration classes for test class [ru.mirea.lab21.lab20ApplicationTests]: lab20ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
-1002 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper – Found @SpringBootConfiguration ru.mirea.lab21.Application for test class ru.mirea.lab21.lab20ApplicationTests
+755  [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils – Could not detect default configuration classes for test class [ru.mirea.lab20.lab20ApplicationTests]: lab20ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+1002 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper – Found @SpringBootConfiguration ru.mirea.lab20.Application for test class ru.mirea.lab20.lab20ApplicationTests
 2135 [Test worker] INFO  r.mirea.lab20.lab20ApplicationTests – Starting lab20ApplicationTests using Java 17.0.10 with PID 37738 (started by igor in /home/igor/IdeaProjects/JavaPatternMirea/Lab_20)
 2140 [Test worker] INFO  r.mirea.lab20.lab20ApplicationTests – No active profile set, falling back to 1 default profile: "default"
 4868 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.

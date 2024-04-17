@@ -1,4 +1,4 @@
-package ru.mirea.lab21;
+package ru.mirea.lab20;
 
 import lombok.extern.slf4j.Slf4j;
 import org.aspectj.lang.JoinPoint;
@@ -15,6 +15,6 @@ public class Aspect {
     public void logParameters(JoinPoint joinPoint) {
         log.info("Parameters: {}", joinPoint.getArgs());
     }
-    @Pointcut("within(ru.mirea.lab21.service.*)")
+    @Pointcut("within(ru.mirea.lab20.service.*)")
     public void allServiceMethods() {}
 }

@@ -1,6 +1,6 @@
-package ru.mirea.lab21.service;
+package ru.mirea.lab20.service;
 
-import ru.mirea.lab21.model.Item;
+import ru.mirea.lab20.model.Item;
 
 import java.util.List;
 

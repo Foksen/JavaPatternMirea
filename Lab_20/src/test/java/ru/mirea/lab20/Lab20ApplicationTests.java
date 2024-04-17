@@ -1,4 +1,4 @@
-package ru.mirea.lab21;
+package ru.mirea.lab20;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

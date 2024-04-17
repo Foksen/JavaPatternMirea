@@ -1,4 +1,4 @@
-package ru.mirea.lab21.model;
+package ru.mirea.lab20.model;
 
 import com.fasterxml.jackson.annotation.JsonIgnoreProperties;
 import jakarta.persistence.*;
