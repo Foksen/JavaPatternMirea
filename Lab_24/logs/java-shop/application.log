@@ -1,0 +1,124 @@
+755  [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils – Could not detect default configuration classes for test class [ru.mirea.lab24.lab24ApplicationTests]: lab24ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+1002 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper – Found @SpringBootConfiguration ru.mirea.lab24.Application for test class ru.mirea.lab24.lab24ApplicationTests
+2135 [Test worker] INFO  r.mirea.lab24.lab24ApplicationTests – Starting lab24ApplicationTests using Java 17.0.10 with PID 37738 (started by igor in /home/igor/IdeaProjects/JavaPatternMirea/Lab_20)
+2140 [Test worker] INFO  r.mirea.lab24.lab24ApplicationTests – No active profile set, falling back to 1 default profile: "default"
+4868 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5241 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 349 ms. Found 2 JPA repository interfaces.
+6534 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7456 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@55adcf9e
+7462 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7579 [Test worker] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+7729 [Test worker] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+7815 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+8451 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+8620 [Test worker] WARN  org.hibernate.orm.deprecation – HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+10830 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+10842 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+12031 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12090 [Test worker] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+13161 [Test worker] INFO  r.mirea.lab24.lab24ApplicationTests – Started lab24ApplicationTests in 11.768 seconds (process running for 15.448)
+14578 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+14583 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+14624 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+679  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+699  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+770  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Create item
+1246 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils – Could not detect default configuration classes for test class [ru.mirea.lab24.lab24ApplicationTests]: lab24ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+1682 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper – Found @SpringBootConfiguration ru.mirea.lab24.Application for test class ru.mirea.lab24.lab24ApplicationTests
+2893 [Test worker] INFO  r.mirea.lab24.lab24ApplicationTests – Starting lab24ApplicationTests using Java 17.0.10 with PID 106892 (started by igor in /home/igor/IdeaProjects/JavaPatternMirea/Lab_24)
+2897 [Test worker] INFO  r.mirea.lab24.lab24ApplicationTests – No active profile set, falling back to 1 default profile: "default"
+5054 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+5724 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 638 ms. Found 3 JPA repository interfaces.
+8005 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+8835 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@4a2dbcfc
+8840 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+9131 [Test worker] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+9411 [Test worker] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+9537 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+9917 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+10101 [Test worker] WARN  org.hibernate.orm.deprecation – HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+12339 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+12348 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+13943 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+14346 [Test worker] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+15056 [Test worker] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@1e0bae92, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@123fd460, org.springframework.security.web.context.SecurityContextHolderFilter@15d2c2ca, org.springframework.security.web.header.HeaderWriterFilter@5c6fae3c, org.springframework.web.filter.CorsFilter@5037f491, org.springframework.security.web.authentication.logout.LogoutFilter@31aec04a, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@688884e, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@227ae4e4, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@1227ea21, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1368ed98, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@1400984b, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@511ba9c9, org.springframework.security.web.access.ExceptionTranslationFilter@23471f48, org.springframework.security.web.access.intercept.AuthorizationFilter@363751f2]
+16711 [Test worker] INFO  r.mirea.lab24.lab24ApplicationTests – Started lab24ApplicationTests in 14.527 seconds (process running for 21.617)
+16863 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+16868 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+16901 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+724  [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils – Could not detect default configuration classes for test class [ru.mirea.lab24.ItemServiceImplTest]: ItemServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+1011 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper – Found @SpringBootConfiguration ru.mirea.lab24.Application for test class ru.mirea.lab24.ItemServiceImplTest
+1949 [Test worker] INFO  ru.mirea.lab24.ItemServiceImplTest – Starting ItemServiceImplTest using Java 17.0.10 with PID 107149 (started by igor in /home/igor/IdeaProjects/JavaPatternMirea/Lab_24)
+1952 [Test worker] INFO  ru.mirea.lab24.ItemServiceImplTest – No active profile set, falling back to 1 default profile: "default"
+3871 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4215 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 326 ms. Found 3 JPA repository interfaces.
+5538 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+6347 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@674184d
+6351 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+6565 [Test worker] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+6682 [Test worker] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+6783 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+7381 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+7507 [Test worker] WARN  org.hibernate.orm.deprecation – HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+9608 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+9618 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+10750 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+10977 [Test worker] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+11537 [Test worker] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@19412eef, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@542b27af, org.springframework.security.web.context.SecurityContextHolderFilter@77cd1f67, org.springframework.security.web.header.HeaderWriterFilter@3119fcad, org.springframework.web.filter.CorsFilter@7e092ca, org.springframework.security.web.authentication.logout.LogoutFilter@1a16583d, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@63661fc7, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@7c1f3125, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@7ae97a58, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@647d3279, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4b9a1be5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6a4f15bc, org.springframework.security.web.access.ExceptionTranslationFilter@50ad5625, org.springframework.security.web.access.intercept.AuthorizationFilter@50915d5]
+12528 [Test worker] INFO  ru.mirea.lab24.ItemServiceImplTest – Started ItemServiceImplTest in 11.15 seconds (process running for 14.552)
+14531 [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+14545 [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+14643 [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Create item
+14697 [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils – Could not detect default configuration classes for test class [ru.mirea.lab24.lab24ApplicationTests]: lab24ApplicationTests does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+14708 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper – Found @SpringBootConfiguration ru.mirea.lab24.Application for test class ru.mirea.lab24.lab24ApplicationTests
+14837 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+14845 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+14904 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+861  [Test worker] INFO  o.s.t.c.s.AnnotationConfigContextLoaderUtils – Could not detect default configuration classes for test class [ru.mirea.lab24.ItemServiceImplTest]: ItemServiceImplTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+1145 [Test worker] INFO  o.s.b.t.c.SpringBootTestContextBootstrapper – Found @SpringBootConfiguration ru.mirea.lab24.Application for test class ru.mirea.lab24.ItemServiceImplTest
+2071 [Test worker] INFO  ru.mirea.lab24.ItemServiceImplTest – Starting ItemServiceImplTest using Java 17.0.10 with PID 107393 (started by igor in /home/igor/IdeaProjects/JavaPatternMirea/Lab_24)
+2074 [Test worker] INFO  ru.mirea.lab24.ItemServiceImplTest – No active profile set, falling back to 1 default profile: "default"
+3922 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+4314 [Test worker] INFO  o.s.d.r.c.RepositoryConfigurationDelegate – Finished Spring Data repository scanning in 373 ms. Found 3 JPA repository interfaces.
+6153 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Starting...
+7006 [Test worker] INFO  com.zaxxer.hikari.pool.HikariPool – HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@774f2992
+7012 [Test worker] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Start completed.
+7498 [Test worker] INFO  o.h.jpa.internal.util.LogHelper – HHH000204: Processing PersistenceUnitInfo [name: default]
+7672 [Test worker] INFO  org.hibernate.Version – HHH000412: Hibernate ORM core version 6.4.4.Final
+7775 [Test worker] INFO  o.h.c.i.RegionFactoryInitiator – HHH000026: Second-level cache disabled
+8459 [Test worker] INFO  o.s.o.j.p.SpringPersistenceUnitInfo – No LoadTimeWeaver setup: ignoring JPA class transformer
+8610 [Test worker] WARN  org.hibernate.orm.deprecation – HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+11161 [Test worker] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator – HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+11168 [Test worker] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Initialized JPA EntityManagerFactory for persistence unit 'default'
+12375 [Test worker] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration – spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+12614 [Test worker] INFO  o.s.b.a.w.s.WelcomePageHandlerMapping – Adding welcome page template: index
+13171 [Test worker] INFO  o.s.s.w.DefaultSecurityFilterChain – Will secure any request with [org.springframework.security.web.session.DisableEncodeUrlFilter@33ccab9c, org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@668ea404, org.springframework.security.web.context.SecurityContextHolderFilter@1c5f6292, org.springframework.security.web.header.HeaderWriterFilter@6b83ec49, org.springframework.web.filter.CorsFilter@6c89c92e, org.springframework.security.web.authentication.logout.LogoutFilter@6259d7a0, org.springframework.security.web.authentication.UsernamePasswordAuthenticationFilter@602d5417, org.springframework.security.web.authentication.ui.DefaultLoginPageGeneratingFilter@33a39d7e, org.springframework.security.web.authentication.ui.DefaultLogoutPageGeneratingFilter@62109320, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@52ec5ba6, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@5f606ab6, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@34d644b5, org.springframework.security.web.access.ExceptionTranslationFilter@6c54d0dc, org.springframework.security.web.access.intercept.AuthorizationFilter@5220e6ff]
+14192 [Test worker] INFO  ru.mirea.lab24.ItemServiceImplTest – Started ItemServiceImplTest in 12.673 seconds (process running for 16.233)
+16211 [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+16221 [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+16304 [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Create item
+16427 [SpringApplicationShutdownHook] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean – Closing JPA EntityManagerFactory for persistence unit 'default'
+16436 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown initiated...
+16497 [SpringApplicationShutdownHook] INFO  com.zaxxer.hikari.HikariDataSource – HikariPool-1 - Shutdown completed.
+538  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+557  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+616  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Create item
+541  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+558  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+615  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Create item
+557  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+578  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+630  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Create item
+868  [Test worker] INFO  r.m.lab24.service.OrderServiceImpl – Read all orders
+870  [Test worker] INFO  r.m.lab24.service.OrderServiceImpl – Read all orders
+503  [Test worker] INFO  r.m.lab24.service.OrderServiceImpl – Read all orders
+524  [Test worker] INFO  r.m.lab24.service.OrderServiceImpl – Read all orders
+584  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+585  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+595  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Create item
+605  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Create item
+746  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+752  [Test worker] INFO  r.m.lab24.service.ItemServiceImpl – Read all items
+962  [Test worker] INFO  r.m.lab24.service.OrderServiceImpl – Create order
+978  [Test worker] INFO  r.m.lab24.service.OrderServiceImpl – Read all orders
+980  [Test worker] INFO  r.m.lab24.service.OrderServiceImpl – Read all orders

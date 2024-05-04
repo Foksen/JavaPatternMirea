@@ -1,0 +1,1 @@
+INSERT INTO users (login, pass) VALUES ('admin', '$2a$05$6FSHNlgJp.Y0IheIIiT0VOSPOJPpCB.f057Nar4vwqub3fZcXBwnq') ON CONFLICT DO NOTHING;
